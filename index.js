@@ -8,5 +8,5 @@ app.use(express.json())
 app.use(Userrouter)
 connectionDB()
 
-app.get('/', (req, res) => res.send('Welcome to our site!'))
+app.get('', (req, res) => res.send('Welcome to our site!'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
